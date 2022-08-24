@@ -3,6 +3,12 @@ Simple tool to delete all __pycache__ directories.
 
 Important note: it won't follow symlinks
 
+## How to install
+Simply run
+```bash
+cargo install --git https://github.com/jmwielandt/pycleaner
+```
+
 ## Usage
 
 ```bash
