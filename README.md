@@ -14,6 +14,6 @@ USAGE:
 OPTIONS:
         --dry                   Makes it dry run
     -h, --help                  Print help information
-    -l, --loc <LOCALIZATION>    Runs the program staring from other path thant current dir
+    -l, --loc <LOCALIZATION>    Runs the program starting from other path than the current dir
     -n <MAX_DEPTH>
 ```
