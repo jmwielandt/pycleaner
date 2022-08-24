@@ -13,7 +13,7 @@ struct Arguments {
         short = 'l',
         long = "loc",
         value_parser,
-        help = "Runs the program staring from other path thant current dir"
+        help = "Runs the program starting from other path than the current dir"
     )]
     localization: Option<String>,
     #[clap(short = 'n', value_parser)]
