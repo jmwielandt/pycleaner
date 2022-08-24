@@ -84,14 +84,6 @@ fn remove_pycache_directories(
                     paths_queue.push(pbwd);
                 }
             }
-
-            // let file_name: String;
-            // let (file_name, _) = file_name.into_string()?;
-            // match entry.file_name().into_string() {
-            //     Ok(s) => file_name = s,
-            //     Err(s) => file_name = String::from(""),
-            // }
-            // println!("file name: {file_name}");
         }
     }
     Ok(())
